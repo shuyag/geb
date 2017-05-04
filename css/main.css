@@ -397,6 +397,43 @@ ul li {
 	line-height: 30px;
 	letter-spacing: 1px;
 }
+
+.play-content {
+	font-family: "Open Sans", sans-serif;
+	background-color: #eeefef;
+	padding-left: 10%;
+	padding-bottom: 10%;
+	padding-top: 10%;
+	min-height: 600px;
+}
+.play-content h1 {
+	font-size: 55px;
+	font-weight: 700;
+	letter-spacing: -3px;
+	padding-top: -5px;
+}
+.play-content h4 {
+	font-size: 15px;
+	letter-spacing: 3px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-top: 10%;
+}
+.play-content p {
+	font-size: 12px;
+	letter-spacing: 1px;
+	line-height: 19px;
+}
+.play-content li {
+	line-height: 30px;
+	letter-spacing: 1px;
+}
+
+.play-content button {
+	line-height: 15px;
+	letter-spacing: 1px;
+	background-color: #eeefef;
+}
 /* ------------------------------------------------------------------------------
 	 MindMap
 -------------------------------------------------------------------------------*/
