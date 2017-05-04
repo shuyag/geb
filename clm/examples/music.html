@@ -147,7 +147,7 @@
 		<script src="./js/emotion_classifier.js"></script>
 		<script src="./js/emotionmodel.js"></script>
 		<div id="content">
-		<center><a href="/Users/shuya/Desktop/geb/shrdlu.html"><img src="media/logo.png" height="100"></a></center>
+		<center><a href="/geb/shrdlu.html"><img src="media/logo.png" height="100"></a></center>
 			<h2>Please Look at Your Camera</h2>
 			<p>How do you <em>feel</em>? Your facial expressions will change the music generated.</p>
 			<center><img src="media/wave.gif" height="50"></center>
@@ -161,6 +161,9 @@
 				<canvas id="overlay" width="400" height="300"></canvas>
 			</div>
 			<canvas id="sketch" width="400" height="300"></canvas>
+			<div id="controls">
+				<input class="btn" type="button" value="wait, loading video" disabled="disabled" onclick="startVideo()" id="startbutton"></input>
+			</div>
 			<div id="emotion_container">
 				<div id="emotion_icons">
 					<img class="emotion_icon" id="icon1" src="media/icon_angry.png">
@@ -171,10 +174,7 @@
 				<div id='emotion_chart'>
 				</div>
 			</div>
-			<div id="controls">
-				<input class="btn" type="button" value="wait, loading video" disabled="disabled" onclick="startVideo()" id="startbutton"></input>
-			</div>
-			
+						
 			<script>
 				var vid = document.getElementById('videoel');
 				var overlay = document.getElementById('overlay');
