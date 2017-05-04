@@ -83,6 +83,7 @@ ul, ol {
 ul li {
 	list-style: none;
 }
+
 .section {
 	padding: 100px 0;
 }
@@ -321,6 +322,38 @@ ul li {
 	margin-bottom: 1%;
 }
 
+.intro-shrdlu {
+	margin: 10px 50px 50px 90px;
+}
+.intro-shrdlu h1 {
+	font-size: 55px;
+	font-weight: 700;
+	letter-spacing: -3px;
+}
+.intro-shrdlu h2 {
+	font-size: 18px;
+	letter-spacing: 3px;
+	font-weight: 700;
+	color: #262626;
+	text-align: center;
+}
+.intro-shrdlu h4 {
+	font-size: 14px;
+	letter-spacing: 3px;
+	font-weight: 700;
+	color: #262626;
+	text-align: right;
+}
+.intro-shrdlu p {
+	font-size: 12px;
+	letter-spacing: 1px;
+	line-height: 19px;
+}
+.intro-shrdlu li {
+	line-height: 30px;
+	letter-spacing: 1px;
+}
+
 /* ==========================================================================
 	$Teams
 ========================================================================== */
@@ -366,6 +399,26 @@ ul li {
 .map-content{
 	padding: 50px 50px 50px 50px;
 }
+
+.map-content h1 {
+	font-family: 'Georgia';
+	font-size: 60px;
+	font-weight: 400;
+	color: #000000;
+	text-align: center;
+	font-style: italic;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.map-content h2 {
+	font-size: 18px;
+	letter-spacing: 3px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align:  left;
+	padding-left: 8%;
+}
 .map-content h4 {
 	font-size: 15px;
 	letter-spacing: 3px;
@@ -373,9 +426,10 @@ ul li {
 	text-transform: uppercase;
 }
 .map-content p {
-	font-size: 12px;
+	font-size: 14px;
 	letter-spacing: 1px;
-	line-height: 19px;
+	line-height: 24px;
+	padding: 2% 10% 5% 10%;
 }
 
 .map-content li {
@@ -388,10 +442,21 @@ ul li {
 	padding: 10px 0 10px 30px;
 }
 
+.dark{
+	background-color: #262626;
+	padding-top: 25%;
+	padding-bottom: 25%;
+}
+.pale{
+	background-color: #ffffff;
+	padding-top: 25%;
+}
 .limit img{
        width: 100%;
        height: 100%;
+       vertical-align: center;
 }
+
 .collapse{
 	padding: 10px 0 10px 10px;
 	font-size: 12px;
@@ -561,6 +626,15 @@ ul li {
 	-ms-transform: translate3d(0, 0, 0);
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
+}
+
+button{
+	border-width: 2.5px;
+	border-color: #000000;
+	color: #000000;
+	background-color: #ffffff;
+	padding: 2%;
+	margin-top: 5%;
 }
 /* ------------------------------------------------------------------------------
 	 Footer
