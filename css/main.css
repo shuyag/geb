@@ -11,35 +11,42 @@
 	 Typography
 -------------------------------------------------------------------------------*/
 p {
+	font-family: "Open Sans", sans-serif;
 	font-size: 14px;
 	line-height: 22.4px;
 	color: #6c7279;
 }
 h1 {
+	font-family: "Open Sans", sans-serif;
 	font-size: 65px;
 	color: #2d3033;
 }
 h2 {
+	font-family: "Open Sans", sans-serif;
 	font-size: 40px;
 	color: #2d3033;
 }
 h3 {
+	font-family: "Open Sans", sans-serif;
 	font-size: 28px;
 	color: #2d3033;
 	font-weight: 300;
 }
 h4 {
+	font-family: "Open Sans", sans-serif;
 	font-size: 22px;
 	color: #2d3033;
 	font-weight: 400;
 }
 h5 {
+	font-family: "Open Sans", sans-serif;
 	font-size: 14px;
 	color: #2d3033;
 	text-transform: uppercase;
 	font-weight: 700;
 }
 .btn {
+	font-family: "Open Sans", sans-serif;
 	border: 1px solid rgba(0, 0, 0, 0.75);
 	margin-top: 20px;
 	color: #2a2a2a;
