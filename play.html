@@ -35,6 +35,7 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="images/fav/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
+
 </head>
 
 <body>
@@ -45,7 +46,7 @@
     <div class="header-content clearfix"> <a class="logo" href="index.html"><img src="images/favicon.png" alt="GEB Logo" style="max-height: 50px; margin-top: -15px;"></a>
       <nav class="navigation" role="navigation">
         <ul class="primary-nav">
-          <li><a href="shrdlu.html">DEMO</a></li>
+          <li><a href="#">DEMO</a></li>
           <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">THE FUTURE<span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -59,25 +60,48 @@
   </header>
   <!-- Navigation Section --> 
   <!-- Banner Section -->
-  <div class="container">
-    <div class="col-md-5 banner-inner-wrapper">
-      <div class="banner-text">
-       <img src="images/Escher_Stairs.gif" alt="Escher_Gif" style="padding-bottom: 50px;">
+  <div class="container-fluid">
+    <div class="row no-gutter">
+    <div class="col-md-12 col-sm-12 pale">
+    <div class="intro-shrdlu">
+      <h1><span id="head-title"></span></h1>
+      </div>
+    </div>
     </div>
   </div>
-     <div class="col-md-1 banner-inner-wrapper">
-      <div class="banner-text">
+   
+    <div class="container-fluid">
+    <div class="row no-gutter">
+    <div class="col-md-6 col-sm-12 pale">
+    <div class="intro-shrdlu">
+       <h1>SHRDLU: Machine of Man's Designing</h1>
+       <p> <br></p>
+       <p>“What is at stake in the mechanist debate is not how minds are, or might be, brought into being, but how they operate. It is essential for the mechanist thesis that the mechanical model of the mind shall operate according to "mechanical principles," that is, that we can understand the operation of the whole in terms of the operations of its parts, and the operation of each part either shall be determined by its initial state and the construction of the machine, or shall be a random choice between a determinate number of determinate operations. If the mechanist produces a machine which is so complicated that this ceases to hold good of it, then it is no longer a  machine for the purposes of our discussion, no matter how it was constructed.”</p>
+       <h4>-GEB, p.395</h4>
+    </div>
+    </div>
+    
+ <div class="col-md-6 col-sm-12">
+       <div class="limit dark">
+         <img src="images/shrdlu.gif" alt="shrdlu gif">
+       </div>
+     </div>
+  </div>
+  </div>
+  
+  <div class="container-fluid map">
+    <div class="row no-gutter">
+      <div class="col-md-12 col-sm-12 map-content">
+        <h2> </h2>
+        <img src="images/brain.png" alt="human brain computer" style="max-height: 100px; width: auto;">
+        <h2>DEFINITION OF AI:</h2>
+        <p>(Turing's original game described a simple party game involving three players. Player A is a man, player B is a woman and player C (who plays the role of the interrogator) is of either sex. In the Imitation Game, player C is unable to see either player A or player B, and can communicate with them only through written notes. By asking questions of player A and player B, player C tries to determine which of the two is the man and which is the woman. Player A's role is to trick the interrogator into making the wrong decision, while player B attempts to assist the interrogator in making the right one. The computer must be able to compete successfully in a common party game, and this by performing as well as the typical man in answering a series of questions so as to pretend convincingly to be the woman contestant). </p>
+        <h2>WHICH BRINGS US TO A GOOD QUESTION:</h2>
+        <h1>Can people tell the difference between <br>a <b>computer</b> and a <b>human</b>?</h1>
+      </div>
     </div>
   </div>
 
-  <div class="col-md-6 banner-inner-wrapper">
-      <div class="banner-text">
-       <h1>Welcome to Robots in Wonderland</h1>
-    </div>
-  </div>
-  <div class="col-md-12">
-  <img src="images/down.gif" alt="down arrow gif" style="max-height: 50px; padding-left: 50%; padding-right: 50%;">
-  </div>
   <!-- Banner Section --> 
 </section>
 <!-- Header Section --> 
@@ -85,32 +109,75 @@
 <section id="introduction" class="section introduction">
   <div class="container">
     <div class="row">
-      <div class="col-md-4 col-sm-6">
-        <div class="intro-content">
-          <h1>We're reimagining a cult classic.</h1>
-        </div>
-      </div>
       <div class="col-md-5 col-sm-6">
         <div class="intro-content">
-          <p>Join us to experience the world of Artificial Intelligence (AI). In this space you can explore topics surrounding ethics and the future of AI, and learn how to contribute to this field whether you are in the early stages or have extensive experience with AI. This site was created for a Harvard Knowledge Design Seminar (Complit 279) as a way to reimagine and communicate the main topics in Douglas Hofstadter's non-fiction book Gödel, Escher and Bach: an Eternal Golden Braid (GEB). This book explores themes in cognitive science and examines the possibility of computers attaining human intelligence. Scroll down to view our site map including topics from GEB and hover over a topic of interest for more information.</p>
+          <p>As we <b>read</b> through this text, we <b>learned</b> about AI and SHRDLU, but as we <b>built</b> out what the text was saying, <b>many more questions</b> surfaced.</p>
+          <p>Neither Turning nor Hofstadter cover the gendered assumptions and biases inherent in the Turing test. These came to the fore in <a href="https://en.wikipedia.org/wiki/Tay_(bot)">Microsoft's Tay</a>, a Twitterbot that was supposed to imitate the stylings of a teenage girl, but quickly devolved into a racist troll. </p>
         </div>
       </div>
       <div class="col-md-3 col-sm-6">
         <div class="intro-content">
-          <h4>Main Ideas</h4>
-          <ul>
-            <li> - cognition</li>
-            <li> - collaboration</li>
-            <li> - artificial intelligence</li>
-            <li> - ethics</li>
-            <li> - programming bias</li>
-          </ul>
+          <h4>Instructions</h4>
+         <p>We invite you to explore what the emerging field of AI looks like and get your hands dirty programming it yourself. Instructions include an introductory programming component and the files to build your own SHRDLU.</p>
+        </div>
+      </div>
+       <div class="col-md-4 col-sm-6">
+        <div class="intro-content">
+          <h1>Build SHRDLU yourself.</h1>
+          <h1> </h1>
+          <a href="play.html"><button>Start Here</button></a>
         </div>
       </div>
     </div>
   </div>
 </section>
 <!-- Intro Section --> 
+
+ <div class="container-fluid map">
+    <div class="row no-gutter">
+      <div class="col-md-12 col-sm-12 map-content">
+        <h2> </h2>
+        <img src="images/brain.png" alt="human brain computer" style="max-height: 100px; width: auto;">
+        <h2>COMPUTED EMOTION?</h2>
+        <p>“I should clarify one point here: in principle, ATN-grammars have all the power of any programming formalism, so if musical meaning is capturable in any way at all (which I believe it is), it is capturable in an A I N - grammar. True. But in that case, I maintain, the grammar will be defining not just musical structures, but the entire structures of the mind of a beholder. The "grammar" will be a full grammar of thought-not just a grammar of music.” <br><b>-Artificial Intelligence: Retrospects 623</b></p>
+      </div>
+    </div>
+  </div>
+
+<section id="introduction" class="section introduction">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <div class="intro-content">
+          <h1>Make some music.</h1>
+          <h1> </h1>
+          <a href="clm/examples/music.html"><button>PLAY &#x25B6;</button></a>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="intro-content">
+          <h4>INSTRUCTIONS</h4>
+          <p>You will be using your face to make music with AI algorithms that use OpenCV, ChuCK, and Tensorflow libraries. The use of a webcam and turning your volume up will be beneficial. We won't ruin the surprise too much, but you'll be helping compose some modern Bach.</p>
+        </div>
+      </div>
+       <div class="col-md-5 col-sm-6">
+        <div class="intro-content">
+          <p>GEB made the hypothesis that if AI were able to create music, it would not be creating algorithms for music, but rather for the mind. A question that this brings up then, is When is a program original? Does it belong to the programmer or the the musician? What do we do about ethics, programming bias, and ownership? How might one go about separating the program’s mind from the programmer’s mind?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container-fluid map">
+    <div class="row no-gutter">
+      <div class="col-md-12 col-sm-12 map-content">
+        <h2> </h2>
+        <h2>WHICH BRINGS US TO A GOOD QUESTION:</h2>
+        <h1>Given that an AI can detect<br> and process <b>emotion</b>, <br>and that emotion is <b>subjective</b>, <br>how do we think about the future of AI <br>and the <b>ethics</b> of this new world?</h1>
+      </div>
+    </div>
+  </div>
 
 <section id="map" class="map section no-padding">
   <div class="container-fluid">
@@ -297,6 +364,24 @@
 <script src="js/retina.min.js"></script> 
 <script src="js/modernizr.js"></script> 
 <script src="js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>
+      $(function(){
+        $("#head-title").typed({
+          strings: ["Hello, how are you?^50", "What would you like to build today?^50"],
+          typeSpeed: 100,
+          loop: true,
+          startDelay: 100
+        });
+      });
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  
+    
+    <script src="js/typed.js"></script>
 </body>
 </html>
 
