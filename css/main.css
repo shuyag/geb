@@ -374,12 +374,13 @@ ul li {
 
 .intro-content {
 	font-family: "Open Sans", sans-serif;
-	margin-top: 20px;
+	margin-top: 25px;
 }
 .intro-content h1 {
 	font-size: 55px;
 	font-weight: 700;
 	letter-spacing: -3px;
+	padding-top: -5px;
 }
 .intro-content h4 {
 	font-size: 15px;
